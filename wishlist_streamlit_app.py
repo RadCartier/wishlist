@@ -1,11 +1,3 @@
-import streamlit as st
-import json
-import os
-import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
-import re
-
 DATA_FILE = "wishlist_data.json"
 
 st.set_page_config(page_title="Ma Wishlist", page_icon="🎁", layout="wide")
